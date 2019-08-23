@@ -9,11 +9,11 @@ export class SearchFormComponent implements OnInit {
 
   @Output()emitSearch = new EventEmitter<any>()
 
-  searchUser:string;
+  user:string;
   constructor() { }
 
   search(){
-    this.emitSearch.emit(this.searchUser);
+    this.emitSearch.emit(this.user);
   }
 
   ngOnInit() {
