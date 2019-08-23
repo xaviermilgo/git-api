@@ -1,8 +1,8 @@
 
-    <form class="form-inline">
+    <form class="form-inline" #searchForm='ngForm'>
         <div class="form-group">
-            <input type="text" class="form-control" id="searchUser"  placeholder="Search User" required>
+            <input type="text" class="form-control" name="searchUser"  placeholder="Search User" [(ngModel)]='searchUser' required>
         </div>
-        <button type="submit" class="btn btn-primary">Search</button>
+        <button type="submit" class="btn btn-primary" (click)="search()">Search</button>
     </form>
 
