@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+@import "../node_modules/font-awesome/css/font-awesome.css";
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url("/assets/git4.jpg")
+}
+.card-img{
+    width:40%;
+    text-align: center;
+    margin-left:30%;
+    border-radius: 40%;
+   
+}
+.git{
+    text-align: center;
+    background-color: white;
+    margin-left:38%;
+
+}
+.name{
+    font-weight:bolder;
+    font-size: 26px;
+    text-align: center;
+}
+.details{
+    padding-left:30%;
+}
+.repo{
+    font-weight: bolder;
+    font-size:20px;
+}
+
+
+
