@@ -5,4 +5,8 @@
 .details{
 justify-content: center;
 padding-top: 30px;
+color: white;
+}
+.top{
+    padding-top: 20px;
 }
