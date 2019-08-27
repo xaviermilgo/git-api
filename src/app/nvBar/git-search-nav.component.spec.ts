@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NvbarComponent } from './nvbar.component';
+import { nvBarComponent } from './nvBar.component';
 
-describe('NvbarComponent', () => {
-  let component: NvbarComponent;
-  let fixture: ComponentFixture<NvbarComponent>;
+describe('nvBarComponent', () => {
+  let component: nvBarComponent;
+  let fixture: ComponentFixture<nvBarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NvbarComponent ]
+      declarations: [ nvBarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NvbarComponent);
+    fixture = TestBed.createComponent(nvBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
