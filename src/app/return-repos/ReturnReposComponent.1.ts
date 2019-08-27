@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { GitSearchHttpService } from '../git-search-http.service';
 @Component({
   selector: 'app-display-repos',
-  templateUrl: './display-repos.component.html',
-  styleUrls: ['./display-repos.component.css']
+  templateUrl: './return-repos.component.html',
+  styleUrls: ['./return-repos.component.css']
 })
 export class ReturnReposComponent implements OnInit {
   repo: any;
