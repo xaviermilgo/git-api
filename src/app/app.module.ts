@@ -20,7 +20,6 @@ import { DatepipePipe } from './datepipe.pipe';
     GitDisplaySearchComponent,
     GitSearchFormComponent,
     ReturnReposComponent,
-    ReturnReposComponent,
     HighlightDirective,
     DatepipePipe,
    
