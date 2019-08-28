@@ -9,7 +9,6 @@ import { GitDisplaySearchComponent } from './git-display-search/git-display-sear
 import { GitSearchFormComponent } from './git-search-form/git-search-form.component';
 import {HttpClientModule } from '@angular/common/http';
 import {GitSearchHttpService} from './git-search-http.service';
-import { ReturnReposComponent1 } from "./return-repos/ReturnReposComponent1";
 import { ReturnReposComponent } from "./return-repos/ReturnReposComponent";
 import { HighlightDirective } from './highlight.directive';
 import { DatepipePipe } from './datepipe.pipe';
@@ -21,7 +20,7 @@ import { DatepipePipe } from './datepipe.pipe';
     GitDisplaySearchComponent,
     GitSearchFormComponent,
     ReturnReposComponent,
-    ReturnReposComponent1,
+    ReturnReposComponent,
     HighlightDirective,
     DatepipePipe,
    

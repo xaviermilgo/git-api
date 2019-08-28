@@ -5,7 +5,7 @@ import { GitSearchHttpService } from '../git-search-http.service';
   templateUrl: './return-repos.component.html',
   styleUrls: ['./return-repos.component.css']
 })
-export class ReturnReposComponent1 implements OnInit {
+export class ReturnReposComponent implements OnInit {
   repo: any;
   searchWord: string;
   constructor(private searchService: GitSearchHttpService) { }
