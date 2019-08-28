@@ -4,14 +4,7 @@
 
 export const environment = {
   production: false,
-  gitApi : '72ee108de115279702de45343703f2a48a0ba921',
+  gitApi : '74c3fc97ebaf6ff455f3eac43fd574ef9fdf9629',
 };
 
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
